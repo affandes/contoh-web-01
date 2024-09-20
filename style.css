@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f2ef;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px 0;
+}
+
+.profile-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.profile-banner .banner-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.profile-picture {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info {
+    margin-top: 100px;
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0a66c2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004182;
+}
+
+main {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 15px;
+}

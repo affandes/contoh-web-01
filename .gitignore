@@ -1,0 +1,4 @@
+node_modules/
+.cache/
+.replit
+replit_zip_error_log.txt
